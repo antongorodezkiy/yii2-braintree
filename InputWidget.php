@@ -2,7 +2,7 @@
 /**
  * @copyright Anton Tuyakhov <atuyakhov@gmail.com> & Georgiy Slobodenyuk <youanden@gmail.com>
  */
-namespace tuyakhov\braintree;
+namespace youanden\braintree;
 
 use yii\helpers\Html;
 

@@ -1,5 +1,5 @@
 <?php
-namespace tuyakhov\braintree;
+namespace youanden\braintree;
 
 use yii\base\Model;
 use yii\base\ModelEvent;
