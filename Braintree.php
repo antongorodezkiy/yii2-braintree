@@ -167,4 +167,16 @@ class Braintree extends Component
     {
         $this->options['amount'] = round($amount, 2);
     }
+
+    /**
+     * Set the amount to charge
+     * @param float $amount No dollar sign needed
+     */
+    public function generateClientToken($customerId = false)
+    {
+        return \Braintree_ClientToken::generate(
+            ($customerId ? ["customerId" => $customerId] : false)
+        );
+    }
+
 }
