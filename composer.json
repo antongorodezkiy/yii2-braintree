@@ -1,7 +1,7 @@
 {
     "name": "youanden/yii2-braintree",
     "description": "Braintree for Yii2",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "type": "yii2-extension",
     "keywords": ["yii", "yii2", "braintree"],
     "homepage": "https://github.com/youanden/yii2-braintree",
