@@ -175,7 +175,7 @@ class Braintree extends Component
     public function generateClientToken($customerId = false)
     {
         return \Braintree_ClientToken::generate(
-            ($customerId ? ["customerId" => $customerId] : false)
+            ($customerId ? ["customerId" => $customerId] : [])
         );
     }
 
